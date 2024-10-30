@@ -12,91 +12,77 @@ section.body {
   width: 90%;
   margin: 0 auto;
 }
-
-nav {
+section nav {
   margin-bottom: 10px;
 }
-
-ul {
+section nav ul {
   padding-left: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-
-ul > li {
-  border: 1px solid#ccc;
+section nav ul > li {
+  border: 1px solid #ccc;
   display: inline-block;
   padding: 8px;
   width: 80px;
   text-align: center;
 }
-
-a,
-a:active,
-a:hover,
-a:focus {
+section nav a {
   color: black;
   text-decoration: none;
 }
-
-intput[type="test"] {
+section nav a a, section nav a:active, section nav a:hover, section nav a:focus {
+  color: black;
+  text-decoration: none;
+}
+section intput[type=test] {
   width: 200px;
   height: 25px;
 }
-
-table {
+section table {
   border-collapse: collapse;
   width: 100%;
   margin: 10px 0;
 }
-
-tr:hover {
-  background-color: yellow;
-}
-
-th,
-td {
+section table th,
+section table td {
   height: 30px;
 }
-
-table th {
+section table th {
   background-color: #777;
   color: white;
 }
-
-tr > td {
+section table tr:hover {
+  background-color: yellow;
+}
+section table tr > td {
   padding: 8px;
 }
-
-td.id {
+section table tr > td.id {
   width: 120px;
   text-align: center;
 }
-
-td.company {
+section table tr > td.company {
   width: 150px;
   text-align: center;
 }
-
-td.price {
+section table tr > td.price {
   text-align: right;
   width: 100px;
 }
-
-footer {
-  margin-top: 20px;
-}
-
-.card-container {
+section .card-container {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
-
-.card {
+section .card-container .card {
   border: solid 1px #999;
   padding: 10px;
   border-radius: 8px;
   flex-basis: 250px;
 }
+
+footer {
+  margin-top: 20px;
+}/*# sourceMappingURL=style.min.css.map */

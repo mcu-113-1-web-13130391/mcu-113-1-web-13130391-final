@@ -7,30 +7,22 @@ section.container {
   grid-template-columns: 200px 1fr;
   gap: 10px;
 }
-
-img {
-  grid-row: 1 / 5;
+section img {
+  grid-row: 1/5;
 }
-
-h3,
-div.toolbar {
+section h3,
+section div.toolbar {
   text-align: center;
   align-self: center;
 }
-
-div.column {
+section div.column {
   font-size: 20px;
   align-self: center;
 }
-
-a,
-a:active,
-a:hover,
-a:focus {
-  color: black;
-  text-decoration: none;
-}
-
-a {
+section a {
   font-size: 20px;
 }
+section a:active, section a:hover, section a:focus {
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=angular.min.css.map */
