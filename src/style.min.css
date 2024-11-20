@@ -1,4 +1,6 @@
 nav {
+  background-color: var(--body-color);
+  position: fixed;
   width: 100%;
   height: 90px;
   line-height: 90px;
@@ -46,6 +48,7 @@ body .container {
   padding-inline: 10vw;
 }
 .wrapper .home-box {
+  padding-block: 6em;
   height: 100vh;
   min-height: 700px;
 }
