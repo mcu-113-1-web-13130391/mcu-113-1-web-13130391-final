@@ -27,14 +27,14 @@ nav {
     }
     .active-link {
       position: relative;
-      color: var(--first-color);
+      color: var(--frist-color);
 
       &::after {
         position: absolute;
         content: "";
         width: 5px;
         height: 5px;
-        background-color: var(--first-color);
+        background-color: var(--frist-color);
         left: 50%;
         bottom: -15px;
         border-radius: 50%;
