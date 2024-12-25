@@ -366,4 +366,12 @@ i {
   justify-content: space-between;
   padding: 15px;
   color: var(--text-color-second);
+}
+
+.featured-image {
+  display: flex;
+  justify-content: right;
+  align-content: center;
+  min-height: 80vh;
+  width: 50%;
 }/*# sourceMappingURL=style.min.css.map */
