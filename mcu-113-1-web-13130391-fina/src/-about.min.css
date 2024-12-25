@@ -1,0 +1,18 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+}
+.about-container .introduce,
+.about-container .contents {
+  width: 50%;
+}
+.about-container .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 20px 70px;
+  width: 100%;
+  background-color: var(--white-color);
+}/*# sourceMappingURL=-about.min.css.map */
