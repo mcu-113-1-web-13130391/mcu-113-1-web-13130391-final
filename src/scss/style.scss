@@ -96,3 +96,11 @@ i {
   min-height: 80vh;
   width: 50%;
 }
+.image {
+  margin: auto 0;
+  width: 380px;
+  height: 380px;
+  border-radius: 55% 45% 55% 45%;
+  overflow: hidden;
+  /* animation: imgFloat 7s ease-in-out infinite; */
+}
